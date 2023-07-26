@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "constants": "^0.0.2",
+    "pull-file-reader": "^1.0.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-drop-zone": "^4.3.3",
+    "react-file-icon": "^0.2.0",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^8.2.0",
+    "read-scripts": "^1.1.0",
+    "regenerator-runtime": "^0.13.11",
+    "web3": "1.2.2",
+    "@babel/preset-react": "^7.22.5",
+    "web3.storage": "^4.3.0",
+    "webpack": "^5.88.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src -d dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9"
+    
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
